@@ -7,6 +7,8 @@
 - Backend
   - [Express.js](https://expressjs.com/)
   - [Swagger](https://swagger.io/)
+  - [Mocha.js](https://mochajs.org/)
+  - [Chai.js](https://www.chaijs.com/)
 - Frontend
   - [React.js](https://reactjs.org/)
 
