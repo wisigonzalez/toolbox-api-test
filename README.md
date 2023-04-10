@@ -56,8 +56,8 @@ Explanation of hierarchies in files and layers.
           ├── constants/                   # General constants folder
           ├── controllers/                 # Controller folder
           ├── routes/                      # General API routes folder (API versionning strategy)
-              ├── v1/                      # Especific API routes v1 folder
-              └── v2/                      # Especific API routes v2 folder
+          |   ├── v1/                      # Especific API routes v1 folder
+          |   └── v2/                      # Especific API routes v2 folder
           ├── services/                    # Services folder (Business logic)
           └── test/                        # Test folder
 
@@ -65,16 +65,11 @@ Explanation of hierarchies in files and layers.
 
 - `main` >>> All features
 - `feature/initial-configurations` >>> initial configurations
-- `feature/create-mock-page` >>> markup page without integrations
-- `feature/integrate-table-with-api` >>> markup page with integrations
-- `feature/filter-information` >>> markup page with file filtering integrations
-- `enhancement/docker-jest-cust-hook` >>> dockerize, unit testing, documentation
-- `bugfix/documentation` >>> fix readme
-- `feature/testing-hooks-github-action` >>> add test for hooks, github action
+- `feature/create-endpoint` >>> create endpoint
 
 ## Other details
 
-- If you wish see and test the swagger, then:
+If you wish see and test the swagger, then:
 
 1. go to `http://localhost:4000/toolbox-api-v2/docs`
 
